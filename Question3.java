@@ -6,7 +6,7 @@ public class Question3
     Scanner myObj = new Scanner(System.in);
 
     //Reads integer entered by the user
-    double integer = myObj.nextDouble();
+    int integer = myObj.nextInt();
 
     //multiplies the integer by itself and print out the result
     System.out.println(integer * integer);
